@@ -1,0 +1,321 @@
+.home2,.contact-us2,.about4,.services4{
+  cursor: pointer;
+}
+.home2:hover,.contact-us2:hover,.about4:hover,.services4:hover{
+  opacity:0.5;
+  transition: 0.5s;
+
+}
+.frame-icon,
+.screenshot-44-transformed-re-icon2 {
+  position: absolute;
+  top: -36.7px;
+  left: 15.8px;
+  width: 178.7px;
+  height: 179.9px;
+  object-fit: cover;
+}
+.frame-icon {
+  top: 260.1px;
+  width: 494.9px;
+  height: 638.9px;
+  overflow: hidden;
+}
+.contact-child,
+.contact-item {
+  position: absolute;
+  top: -851px;
+  left: 418.6px;
+  width: 1458px;
+  height: 1487px;
+  object-fit: cover;
+}
+.contact-item {
+  top: 0;
+  left: 1406px;
+  width: 106px;
+  height: 491px;
+}
+.contact-inner {
+  position: absolute;
+  top: 79.1px;
+  left: 913.6px;
+  background: linear-gradient(180deg, #74c9c9, rgba(112, 208, 208, 0));
+  width: 147.5px;
+  height: 36.7px;
+}
+.contact-child1 {
+  position: absolute;
+  top: 491px;
+  left: 1406px;
+  background: linear-gradient(180deg, #89c8dd, #73adc1);
+  width: 106px;
+  height: 491px;
+}
+.home2 {
+  position: absolute;
+  top: 83.4px;
+  left: 369.4px;
+  font-weight: 600;
+  display: inline-block;
+  width: 79.4px;
+  height: 35.6px;
+}
+.careerskaavinccom,
+.i,
+.kaav-5228,
+.kaav-inc-3925 {
+  position: absolute;
+  top: 330.2px;
+  left: 194.6px;
+  display: inline-block;
+  font-weight: 500;
+  width: 254.2px;
+  height: 71.2px;
+}
+.careerskaavinccom,
+.i,
+.kaav-5228 {
+  top: 491px;
+  left: 184.5px;
+}
+.careerskaavinccom,
+.i {
+  top: 636px;
+}
+.careerskaavinccom {
+  top: 792.7px;
+  font-size: var(--font-size-xl);
+  width: 234px;
+  height: 50.9px;
+}
+.services4 {
+  top: 83.4px;
+  left: 535.7px;
+  width: 122.9px;
+  height: 35.6px;
+}
+.about4,
+.contact-us2,
+.services4 {
+  position: absolute;
+  font-weight: 600;
+  display: inline-block;
+}
+.about4 {
+  top: 83.4px;
+  left: 742.5px;
+  font-size: var(--font-size-lg-3);
+  text-transform: uppercase;
+  width: 67.5px;
+  height: 35.6px;
+}
+.contact-us2 {
+  top: 79.4px;
+  left: 923.6px;
+  width: 167.8px;
+  height: 22px;
+}
+.contact2 {
+  margin: 0;
+}
+.contact1,
+.us1 {
+  position: absolute;
+  top: 170.4px;
+  left: 28px;
+  font-size: var(--font-size-43xl);
+  display: inline-block;
+  width: 333.1px;
+  height: 179.4px;
+}
+.us1 {
+  top: 171.4px;
+  left: 286.3px;
+  font-size: var(--font-size-42xl);
+  background: linear-gradient(101.36deg, #55e3da, rgba(85, 227, 218, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 829.7px;
+  height: 281.2px;
+}
+.building-icon,
+.phone-bubble-icon {
+  position: absolute;
+  top: 316.7px;
+  left: 77.2px;
+  width: 65.4px;
+  height: 89.7px;
+  object-fit: cover;
+}
+.phone-bubble-icon {
+  top: 466px;
+  left: 72.5px;
+  width: 74.8px;
+  height: 85.9px;
+}
+.call-us,
+.meet-us {
+  position: absolute;
+  top: 285.7px;
+  left: 208.3px;
+  font-size: var(--font-size-6xl-8);
+  display: inline-block;
+  width: 210.3px;
+  height: 44.5px;
+}
+.call-us {
+  top: 441px;
+  width: 187.9px;
+  height: 36px;
+}
+.mail-icon {
+  position: absolute;
+  top: 733.4px;
+  left: 75.6px;
+  width: 76.8px;
+  height: 84.8px;
+  object-fit: cover;
+}
+.fax,
+.mail-us {
+  position: absolute;
+  top: 585px;
+  left: 221.9px;
+  font-size: var(--font-size-6xl-8);
+  display: inline-block;
+  width: 71.2px;
+  height: 37.4px;
+}
+.mail-us {
+  top: 741.6px;
+  left: 208.3px;
+  width: 112.3px;
+  height: 37.9px;
+}
+.fax-icon {
+  position: absolute;
+  top: 583.4px;
+  left: 77.2px;
+  width: 75.3px;
+  height: 103.6px;
+  object-fit: cover;
+}
+.contact {
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  width: 100%;
+  height: 982px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 420px) {
+  .screenshot-44-transformed-re-icon2 {
+    width: 60px;
+    height: 75px;
+    top: -9.8px;
+    left: 25px;
+  }
+  .frame-icon {
+    width: 320px;
+    height: 600px;
+    border-radius: var(--br-11xl);
+    top: 150px;
+  }
+  .contact-inner {
+    width: 90px;
+    height: 25px;
+    top: 30px;
+    left: 275px;
+  }
+  .home2 {
+    font-size: var(--font-size-xs);
+    top: 30px;
+    left: 90px;
+  }
+  .kaav-inc-3925 {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-mini);
+    text-align: justify;
+    width: 180px;
+    top: 210px;
+    left: 130px;
+  }
+  .careerskaavinccom,
+  .i,
+  .kaav-5228 {
+    font-size: var(--font-size-mini);
+    top: 380px;
+    left: 120px;
+  }
+  .careerskaavinccom,
+  .i {
+    top: 520px;
+    left: 130px;
+  }
+  .careerskaavinccom {
+    height: 50px;
+    top: 650px;
+  }
+  .about4,
+  .contact-us2,
+  .services4 {
+    font-size: var(--font-size-xs);
+    top: 30px;
+    left: 140px;
+  }
+  .about4,
+  .contact-us2 {
+    left: 220px;
+  }
+  .contact-us2 {
+    left: 280px;
+  }
+  .contact1,
+  .us1 {
+    font-size: var(--font-size-21xl);
+    width: 200px;
+    top: 90px;
+  }
+  .us1 {
+    width: 829px;
+    top: 92px;
+    left: 195px;
+  }
+  .building-icon {
+    top: 200px;
+    left: 20px;
+  }
+  .phone-bubble-icon {
+    top: 350px;
+    left: 25px;
+  }
+  .meet-us {
+    top: 160px;
+    left: 150px;
+  }
+  .call-us {
+    top: 320px;
+    left: 160px;
+  }
+  .mail-icon {
+    top: 600px;
+    left: 30px;
+  }
+  .fax {
+    top: 460px;
+    left: 180px;
+  }
+  .mail-us {
+    top: 600px;
+    left: 160px;
+  }
+  .fax-icon {
+    top: 480px;
+    left: 30px;
+  }
+}
