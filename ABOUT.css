@@ -1,0 +1,228 @@
+.home1,.contact-us1,.services3,.about2{
+  cursor: pointer;
+}
+.home1:hover,.contact-us1:hover,.services3:hover,.about2:hover{
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.about-child {
+  position: absolute;
+  top: -851px;
+  left: 418.6px;
+  width: 1458px;
+  height: 1487px;
+  object-fit: cover;
+}
+.about-item,
+.screenshot-44-transformed-re-icon1 {
+  position: absolute;
+  top: -36.7px;
+  left: 15.8px;
+  width: 178.7px;
+  height: 179.9px;
+  object-fit: cover;
+}
+.about-item {
+  top: 0;
+  left: 1406px;
+  width: 106px;
+  height: 491px;
+}
+.about-inner {
+  position: absolute;
+  top: 48.8px;
+  left: 909.5px;
+  background: linear-gradient(180deg, #74c9c9, rgba(112, 208, 208, 0));
+  width: 147.5px;
+  height: 36.7px;
+}
+.contact-us1,
+.home1 {
+  position: absolute;
+  top: 56.2px;
+  left: 323.7px;
+  font-weight: 600;
+  display: inline-block;
+  width: 79.4px;
+  height: 35.6px;
+}
+.contact-us1 {
+  left: 923.6px;
+  width: 167.8px;
+  height: 22px;
+}
+.services3 {
+  top: 56.4px;
+  left: 515.6px;
+  font-weight: 600;
+  width: 122.9px;
+  height: 35.6px;
+}
+.about2,
+.about3,
+.services3,
+.us {
+  position: absolute;
+  display: inline-block;
+}
+.about2 {
+  top: 56.6px;
+  left: 739.4px;
+  font-size: var(--font-size-lg-3);
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 67.5px;
+  height: 35.6px;
+}
+.about3,
+.us {
+  top: 154.6px;
+  left: 85.5px;
+  font-size: var(--font-size-43xl);
+  width: 201.6px;
+  height: 61.8px;
+}
+.us {
+  top: 157.5px;
+  left: 287.1px;
+  font-size: var(--font-size-42xl);
+  background: linear-gradient(101.36deg, #55e3da, rgba(85, 227, 218, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 830.2px;
+  height: 190px;
+}
+.pexels-christina-morillo-11814-icon {
+  position: absolute;
+  top: 232px;
+  left: 27.1px;
+  width: 476.1px;
+  height: 317.8px;
+  object-fit: cover;
+}
+.rectangle-div {
+  position: absolute;
+  top: 493px;
+  left: 1406px;
+  background: linear-gradient(180deg, #89c8dd, #73adc1);
+  width: 106px;
+  height: 491px;
+}
+.at-cyan-meadows1,
+.cyan-meadows-is,
+.whether-youre-a {
+  position: absolute;
+  top: 591px;
+  left: 22.6px;
+  display: inline-block;
+  width: 629.4px;
+  height: 97.5px;
+}
+.cyan-meadows-is,
+.whether-youre-a {
+  top: 814.3px;
+  height: 122.3px;
+}
+.cyan-meadows-is {
+  top: 702.4px;
+  height: 101.4px;
+}
+.about1 {
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-aliceblue);
+  width: 100%;
+  height: 982px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 600px) {
+  .about1 {
+    display: flex;
+  }
+}
+@media screen and (max-width: 420px) {
+  .screenshot-44-transformed-re-icon1 {
+    width: 60px;
+    height: 75px;
+    top: -9.8px;
+    left: 25px;
+  }
+  .about-inner {
+    width: 90px;
+    height: 25px;
+    left: 275px;
+    top: 26px;
+  }
+  .about2,
+  .contact-us1,
+  .home1,
+  .services3 {
+    font-size: var(--font-size-xs);
+    left: 90px;
+    top: 30px;
+  }
+  .about2,
+  .contact-us1,
+  .services3 {
+    left: 280px;
+  }
+  .about2,
+  .services3 {
+    left: 140px;
+  }
+  .about2 {
+    left: 215px;
+  }
+  .about3 {
+    font-size: 36px;
+    top: 90px;
+    left: 50px;
+  }
+  .us {
+    font-size: var(--font-size-21xl);
+    top: 90px;
+    left: 170px;
+  }
+  .pexels-christina-morillo-11814-icon {
+    width: 347px;
+    height: 250px;
+    opacity: 0;
+    top: 150px;
+  }
+  .pexels-christina-morillo-11814-icon.animate {
+    animation: 0.5s linear 0s 1 normal forwards slide-in-top;
+  }
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-200px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .at-cyan-meadows1 {
+    font-weight: 500;
+    font-family: var(--font-inter);
+    text-align: justify;
+    width: 330px;
+    top: 430px;
+  }
+  .cyan-meadows-is,
+  .whether-youre-a {
+    text-align: justify;
+    width: 370px;
+  }
+  .cyan-meadows-is {
+    width: 330px;
+    top: 620px;
+  }
+  .about1:hover {
+    display: flex;
+  }
+}
