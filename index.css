@@ -3,6 +3,33 @@
 .verticals {
   position: absolute;
   top: 75.8px;
+  left: 825px; /* Adjust the left position as needed */
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 20px; /* Add space between Verticals and Business Solutions */
+}
+
+.business-solutions {
+  position: absolute;
+  top: 75.8px;
+  left: 915px; /* Adjust the left position as needed */
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 20px; /* Add space between Business Solutions and Contact Us */
+}
+
+.contact-us3 {
+  position: absolute;
+  top: 74.2px;
+  left: 990px; /* Adjust the left position as needed */
+  font-weight: 600;
+  display: inline-block;
+}
+/* Add this CSS code to index.css */
+
+.verticals {
+  position: absolute;
+  top: 75.8px;
   left: 875px; /* Adjust the left position as needed */
   font-weight: 600;
   display: inline-block;
