@@ -10,7 +10,7 @@
 .verticals {
   position: absolute;
   top: 75.8px;
-  left: 700px; /* Adjust the left position as needed */
+  left: 800px; /* Adjust the left position as needed */
   font-weight: 600;
   display: inline-block;
   margin-right: 20px;
@@ -19,7 +19,7 @@
 .business-solutions {
   position: absolute;
   top: 75.8px;
-  left: 930px; /* Adjust the left position as needed */
+  left: 1030px; /* Adjust the left position as needed */
   font-weight: 600;
   display: inline-block;
   margin-right: 20px;
