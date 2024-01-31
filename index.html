@@ -58,10 +58,16 @@
         Embark on a transformative journey with us as we open doors to new
         opportunities and possibilities
       </h2>
-      <div class="home5"onclick="location.href='index.html'">HOME</div>
-      <div class="services5"onclick="location.href='services.html'">SERVICES</div>
-      <div class="about5"onclick="location.href='ABOUT.html'">ABOUT</div>
-      <div class="contact-us3"onclick="location.href='CONTACT.html'">CONTACT US</div>
+      <div class="home5" onclick="location.href='index.html'">HOME</div>
+      <div class="services5" onclick="location.href='services.html'">SERVICES</div>
+      <div class="about5" onmouseover="showDropdown()" onmouseout="hideDropdown()">ABOUT
+        <div id="aboutDropdown" class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <div class="contact-us3" onclick="location.href='CONTACT.html'">CONTACT US</div>
       <img
         class="screenshot-44-transformed-re-icon3"
         alt=""
@@ -71,7 +77,17 @@
       <img class="home-child4" alt="" src="./public/rectangle-21@2x.png" />
 
       <div class="home-child5"></div>
-      <div class="contact-us4"onclick="location.href='CONTACT.html'">contact us</div>
+      <div class="contact-us4" onclick="location.href='CONTACT.html'">contact us</div>
     </div>
+
+    <script>
+      function showDropdown() {
+        document.getElementById("aboutDropdown").style.display = "block";
+      }
+
+      function hideDropdown() {
+        document.getElementById("aboutDropdown").style.display = "none";
+      }
+    </script>
   </body>
 </html>
