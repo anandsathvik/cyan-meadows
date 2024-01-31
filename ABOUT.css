@@ -1,3 +1,23 @@
+/* Styles for Verticals section */
+.verticals-header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.verticals-textbox {
+  /* Style the text box */
+}
+
+/* Styles for Business Solutions section */
+.business-solutions-header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.business-solutions-textbox {
+  /* Style the text box */
+}
+
 .home1,.contact-us1,.services3,.about2{
   cursor: pointer;
 }
