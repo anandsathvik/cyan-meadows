@@ -144,6 +144,15 @@
   color: var(--color-gray);
   font-family: var(--font-inter);
 }
+.verticals-header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.verticals-header p {
+  font-weight: 600;
+  font-size: 24px;
+}
 @media screen and (max-width: 420px) {
   .services-item {
     width: 90px;
