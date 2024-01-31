@@ -218,3 +218,35 @@
     left: 20px;
   }
 }
+.verticals {
+  position: absolute;
+  top: 850px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: var(--font-size-lg-3);
+  font-weight: 600;
+}
+.business-solutions {
+  position: absolute;
+  top: 920px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: var(--font-size-lg-3);
+  font-weight: 600;
+}
+.verticals-info {
+  position: absolute;
+  top: 900px;
+  left: 33.1px;
+  width: 579.7px;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-inter);
+}
+.business-solutions-info {
+  position: absolute;
+  top: 970px;
+  left: 33.1px;
+  width: 579.7px;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-inter);
+}
