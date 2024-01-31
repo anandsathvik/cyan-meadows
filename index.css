@@ -1,47 +1,39 @@
-/* Add this CSS code to index.css */
+.home5, .services5, .about5, .contact-us3, .verticals, .business-solutions {
+  cursor: pointer;
+}
+
+.home5:hover, .services5:hover, .about5:hover, .contact-us3:hover, .verticals:hover, .business-solutions:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
 
 .verticals {
   position: absolute;
   top: 75.8px;
-  left: 825px; /* Adjust the left position as needed */
+  left: 670px; /* Adjust the left position as needed */
   font-weight: 600;
   display: inline-block;
-  margin-right: 20px; /* Add space between Verticals and Business Solutions */
+  margin-right: 20px;
 }
 
 .business-solutions {
   position: absolute;
   top: 75.8px;
-  left: 915px; /* Adjust the left position as needed */
+  left: 730px; /* Adjust the left position as needed */
   font-weight: 600;
   display: inline-block;
-  margin-right: 20px; /* Add space between Business Solutions and Contact Us */
+  margin-right: 20px;
 }
 
 .contact-us3 {
   position: absolute;
   top: 74.2px;
-  left: 990px; /* Adjust the left position as needed */
-  font-weight: 600;
-  display: inline-block;
-}
-/* Add this CSS code to index.css */
-
-.verticals {
-  position: absolute;
-  top: 75.8px;
-  left: 875px; /* Adjust the left position as needed */
+  left: 815px; /* Adjust the left position as needed */
   font-weight: 600;
   display: inline-block;
 }
 
-.business-solutions {
-  position: absolute;
-  top: 75.8px;
-  left: 965px; /* Adjust the left position as needed */
-  font-weight: 600;
-  display: inline-block;
-}
+/* Add other existing styles below */
 
 .home5,.services5,.about5,.contact-us3{
   cursor: pointer;
