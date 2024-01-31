@@ -14,6 +14,41 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
     />
+    <style>
+      /* Dropdown Button */
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {
+        background-color: #f1f1f1;
+      }
+
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    </style>
   </head>
   <body>
     <div class="home4">
@@ -60,7 +95,16 @@
       </h2>
       <div class="home5"onclick="location.href='index.html'">HOME</div>
       <div class="services5"onclick="location.href='services.html'">SERVICES</div>
-      <div class="about5"onclick="location.href='ABOUT.html'">ABOUT</div>
+      <!-- Updated About Button with Dropdown -->
+      <div class="dropdown">
+        <button class="about5" onclick="location.href='ABOUT.html'">ABOUT</button>
+        <div class="dropdown-content">
+          <a href="#">Overview</a>
+          <a href="#">Team</a>
+          <a href="#">Clients</a>
+        </div>
+      </div>
+      <!-- End of Updated About Button with Dropdown -->
       <div class="contact-us3"onclick="location.href='CONTACT.html'">CONTACT US</div>
       <img
         class="screenshot-44-transformed-re-icon3"
