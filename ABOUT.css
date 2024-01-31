@@ -1,23 +1,3 @@
-/* Styles for Verticals section */
-.verticals-header {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.verticals-textbox {
-  /* Style the text box */
-}
-
-/* Styles for Business Solutions section */
-.business-solutions-header {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.business-solutions-textbox {
-  /* Style the text box */
-}
-
 .home1,.contact-us1,.services3,.about2{
   cursor: pointer;
 }
@@ -95,8 +75,7 @@
   height: 35.6px;
 }
 .about3,
-.us {
-  top: 154.6px;
+.us {   top: 154.6px;
   left: 85.5px;
   font-size: var(--font-size-43xl);
   width: 201.6px;
@@ -159,90 +138,25 @@
   color: var(--color-gray);
   font-family: var(--font-inter);
 }
-@media screen and (max-width: 600px) {
-  .about1 {
-    display: flex;
-  }
+
+.verticals-header {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
 }
-@media screen and (max-width: 420px) {
-  .screenshot-44-transformed-re-icon1 {
-    width: 60px;
-    height: 75px;
-    top: -9.8px;
-    left: 25px;
-  }
-  .about-inner {
-    width: 90px;
-    height: 25px;
-    left: 275px;
-    top: 26px;
-  }
-  .about2,
-  .contact-us1,
-  .home1,
-  .services3 {
-    font-size: var(--font-size-xs);
-    left: 90px;
-    top: 30px;
-  }
-  .about2,
-  .contact-us1,
-  .services3 {
-    left: 280px;
-  }
-  .about2,
-  .services3 {
-    left: 140px;
-  }
-  .about2 {
-    left: 215px;
-  }
-  .about3 {
-    font-size: 36px;
-    top: 90px;
-    left: 50px;
-  }
-  .us {
-    font-size: var(--font-size-21xl);
-    top: 90px;
-    left: 170px;
-  }
-  .pexels-christina-morillo-11814-icon {
-    width: 347px;
-    height: 250px;
-    opacity: 0;
-    top: 150px;
-  }
-  .pexels-christina-morillo-11814-icon.animate {
-    animation: 0.5s linear 0s 1 normal forwards slide-in-top;
-  }
-  @keyframes slide-in-top {
-    0% {
-      transform: translateY(-200px);
-      opacity: 0;
-    }
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  .at-cyan-meadows1 {
-    font-weight: 500;
-    font-family: var(--font-inter);
-    text-align: justify;
-    width: 330px;
-    top: 430px;
-  }
-  .cyan-meadows-is,
-  .whether-youre-a {
-    text-align: justify;
-    width: 370px;
-  }
-  .cyan-meadows-is {
-    width: 330px;
-    top: 620px;
-  }
-  .about1:hover {
-    display: flex;
-  }
+
+.business-solutions-header {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
 }
+
+.verticals-textbox,
+.business-solutions-textbox {
+  margin-top: 10px;
+  text-align: center;
+  background-color: #55e3da;
+  padding: 10px;
+  border-radius: 5px;
+}
+
