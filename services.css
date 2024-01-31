@@ -1,10 +1,18 @@
-.home,.about,.contact-us,.services1{
+.home,
+.about,
+.contact-us,
+.services1 {
   cursor: pointer;
 }
-.home:hover,.about:hover,.contact-us:hover,.services1:hover{
+
+.home:hover,
+.about:hover,
+.contact-us:hover,
+.services1:hover {
   opacity: 0.5;
   transition: 0.5s;
 }
+
 .services-child {
   position: absolute;
   top: -851px;
@@ -13,6 +21,7 @@
   height: 1487px;
   object-fit: cover;
 }
+
 .services-item {
   position: absolute;
   top: 79.1px;
@@ -21,6 +30,7 @@
   width: 147.5px;
   height: 36.7px;
 }
+
 .services-inner {
   position: absolute;
   top: 0;
@@ -29,6 +39,7 @@
   height: 491px;
   object-fit: cover;
 }
+
 .screenshot-44-transformed-re-icon {
   position: absolute;
   top: -36.7px;
@@ -37,6 +48,7 @@
   height: 179.9px;
   object-fit: cover;
 }
+
 .home {
   position: absolute;
   top: 83.4px;
@@ -46,6 +58,7 @@
   width: 160.8px;
   height: 35.6px;
 }
+
 .at-cyan-meadows,
 .cyan-meadows-understands,
 .recognizing-that-each {
@@ -57,6 +70,7 @@
   width: 544.9px;
   height: 128.1px;
 }
+
 .cyan-meadows-understands,
 .recognizing-that-each {
   top: 569px;
@@ -64,15 +78,18 @@
   width: 537.9px;
   height: 123.6px;
 }
+
 .recognizing-that-each {
   top: 763.6px;
 }
+
 .services1 {
   top: 83.4px;
   left: 543px;
   width: 129px;
   height: 35.6px;
 }
+
 .about,
 .contact-us,
 .services1 {
@@ -80,6 +97,7 @@
   font-weight: 600;
   display: inline-block;
 }
+
 .about {
   top: 83.4px;
   left: 742.5px;
@@ -88,15 +106,18 @@
   width: 91.3px;
   height: 35.6px;
 }
+
 .contact-us {
   top: 79.4px;
   left: 923.6px;
   width: 167.8px;
   height: 39.6px;
 }
+
 .industry-specialization1 {
   margin: 0;
 }
+
 .industry-specialization {
   top: 491px;
   font-size: var(--font-size-28xl-4);
@@ -104,6 +125,7 @@
   width: 579.7px;
   height: 71px;
 }
+
 .customized-solutions,
 .industry-specialization,
 .services2 {
@@ -111,6 +133,7 @@
   left: 33.1px;
   display: inline-block;
 }
+
 .customized-solutions {
   top: 684.5px;
   font-size: var(--font-size-28xl-4);
@@ -118,12 +141,14 @@
   width: 579.7px;
   height: 71px;
 }
+
 .services2 {
   top: 245.8px;
   font-size: var(--font-size-43xl);
   width: 333.1px;
   height: 75px;
 }
+
 .rectangle-icon {
   position: absolute;
   top: 487.6px;
@@ -132,18 +157,20 @@
   height: 494.4px;
   object-fit: cover;
 }
+
 .services {
   position: relative;
   border-radius: var(--br-11xl);
   background-color: var(--color-white);
   width: 100%;
-  height: 1500px; /* Increased height */
+  height: 2000px; /* Increased height */
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-lg);
   color: var(--color-gray);
   font-family: var(--font-inter);
 }
+
 @media screen and (max-width: 420px) {
   .services-item {
     width: 90px;
@@ -151,12 +178,14 @@
     top: 26px;
     left: 285px;
   }
+
   .screenshot-44-transformed-re-icon {
     width: 60px;
     height: 75px;
     top: -9.8px;
     left: 15px;
   }
+
   .home {
     font-size: var(--font-size-smi);
     width: 30px;
@@ -164,6 +193,7 @@
     top: 30px;
     left: 80px;
   }
+
   .at-cyan-meadows {
     font-weight: 500;
     font-family: var(--font-inter);
@@ -172,6 +202,7 @@
     top: 140px;
     left: 20px;
   }
+
   .cyan-meadows-understands,
   .recognizing-that-each {
     font-weight: 500;
@@ -179,15 +210,18 @@
     text-align: justify;
     left: 15px;
   }
+
   .cyan-meadows-understands {
     font-size: var(--font-size-lg);
     width: 350px;
     top: 350px;
   }
+
   .recognizing-that-each {
     width: 370px;
     top: 580px;
   }
+
   .about,
   .contact-us,
   .services1 {
@@ -195,22 +229,27 @@
     top: 30px;
     left: 135px;
   }
+
   .about,
   .contact-us {
     left: 220px;
   }
+
   .contact-us {
     left: 289px;
   }
+
   .customized-solutions,
   .industry-specialization {
     font-size: var(--font-size-11xl);
     top: 300px;
     left: 20px;
   }
+
   .customized-solutions {
     top: 530px;
   }
+
   .services2 {
     font-size: 45px;
     height: 75px;
