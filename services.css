@@ -1,7 +1,8 @@
-.home,.about,.contact-us,.services1{
+/* Your existing CSS styles */
+.home, .about, .contact-us, .services1 {
   cursor: pointer;
 }
-.home:hover,.about:hover,.contact-us:hover,.services1:hover{
+.home:hover, .about:hover, .contact-us:hover, .services1:hover {
   opacity: 0.5;
   transition: 0.5s;
 }
@@ -46,9 +47,7 @@
   width: 160.8px;
   height: 35.6px;
 }
-.at-cyan-meadows,
-.cyan-meadows-understands,
-.recognizing-that-each {
+.at-cyan-meadows, .cyan-meadows-understands, .recognizing-that-each {
   position: absolute;
   top: 351.2px;
   left: 33.1px;
@@ -57,8 +56,7 @@
   width: 544.9px;
   height: 128.1px;
 }
-.cyan-meadows-understands,
-.recognizing-that-each {
+.cyan-meadows-understands, .recognizing-that-each {
   top: 569px;
   left: 40.1px;
   width: 537.9px;
@@ -73,9 +71,7 @@
   width: 129px;
   height: 35.6px;
 }
-.about,
-.contact-us,
-.services1 {
+.about, .contact-us, .services1 {
   position: absolute;
   font-weight: 600;
   display: inline-block;
@@ -104,9 +100,7 @@
   width: 579.7px;
   height: 71px;
 }
-.customized-solutions,
-.industry-specialization,
-.services2 {
+.customized-solutions, .industry-specialization, .services2 {
   position: absolute;
   left: 33.1px;
   display: inline-block;
@@ -144,77 +138,62 @@
   color: var(--color-gray);
   font-family: var(--font-inter);
 }
-@media screen and (max-width: 420px) {
-  .services-item {
-    width: 90px;
-    height: 25px;
-    top: 26px;
-    left: 285px;
-  }
-  .screenshot-44-transformed-re-icon {
-    width: 60px;
-    height: 75px;
-    top: -9.8px;
-    left: 15px;
-  }
-  .home {
-    font-size: var(--font-size-smi);
-    width: 30px;
-    height: 12px;
-    top: 30px;
-    left: 80px;
-  }
-  .at-cyan-meadows {
-    font-weight: 500;
-    font-family: var(--font-inter);
-    font-size: var(--font-size-lg);
-    width: 370px;
-    top: 140px;
-    left: 20px;
-  }
-  .cyan-meadows-understands,
-  .recognizing-that-each {
-    font-weight: 500;
-    font-family: var(--font-inter);
-    text-align: justify;
-    left: 15px;
-  }
-  .cyan-meadows-understands {
-    font-size: var(--font-size-lg);
-    width: 350px;
-    top: 350px;
-  }
-  .recognizing-that-each {
-    width: 370px;
-    top: 580px;
-  }
-  .about,
-  .contact-us,
-  .services1 {
-    font-size: var(--font-size-smi);
-    top: 30px;
-    left: 135px;
-  }
-  .about,
-  .contact-us {
-    left: 220px;
-  }
-  .contact-us {
-    left: 289px;
-  }
-  .customized-solutions,
-  .industry-specialization {
-    font-size: var(--font-size-11xl);
-    top: 300px;
-    left: 20px;
-  }
-  .customized-solutions {
-    top: 530px;
-  }
-  .services2 {
-    font-size: 45px;
-    height: 75px;
-    top: 80px;
-    left: 20px;
-  }
+/* Your existing CSS styles */
+
+.menu {
+  background-color: #f8f9fa; /* Light gray background */
+  border: 2px solid #000; /* Black border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  padding: 20px; /* Add padding */
+  max-width: 250px; /* Limit width */
+  margin: 20px; /* Add margin */
+  height: 420px;
+	
+  /* Adjust menu position based on custom variables */
+  position: absolute;
+  top: calc(50% - 210px); /* Adjust the top position for both menus */
+}
+
+.menu-verticals {
+  left: calc(50% - 200px); /* Adjust the left position for verticals menu */
+}
+
+.menu-business-solutions {
+  left: calc(50% + 125px); /* Adjust the left position for business solutions menu */
+}
+
+.menu ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.menu ul li {
+  margin-bottom: 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #333; /* Dark text color */
+  font-weight: bold;
+}
+
+.menu ul li a:hover {
+  color: #007bff; /* Blue hover color */
+}
+
+.menu-title {
+  font-weight: bold;
+  font-size: 1.2em; /* Larger title */
+  margin-bottom: 10px; /* Add space below title */
+  color: #17a2b8; /* Turquoise color */
+  text-decoration: underline; /* Add underline */
+  text-decoration-color: #17a2b8; /* Turquoise underline color */
+  -webkit-text-stroke-width: 0.5px; /* Black outline */
+  -webkit-text-stroke-color: #000; /* Black outline color */
+}
+
+.sub-menu {
+  padding-left: 20px;
 }
